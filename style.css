@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* CSS HSL 
+--mindaro: hsla(84, 93%, 83%, 1);
+--mindaro-2: hsla(76, 59%, 70%, 1);
+--moss-green: hsla(78, 22%, 55%, 1);
+--reseda-green: hsla(65, 10%, 47%, 1);
+--dim-gray: hsla(285, 2%, 39%, 1);
+*/
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #DDFCAD;
+}
+h1{
+    font-weight: 1000;
+}
+h3{
+    font-weight: 800;
+}
+.header{
+    background-color: #95A472;
+    text-align: center;
+}
+.header button{
+    background-color: hsla(84, 93%, 83%, 1);
+    color: black;
+}
+.content-block p{
+    color: hsla(285, 2%, 39%, 1);
+    text-align: justify;
+}
+
