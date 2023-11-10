@@ -25,10 +25,13 @@ body{
     font-weight: 800;
 }
 .header{
+    position: fixed;
+    margin: 0;
     background-color: #95A472;
     text-align: center;
     width:100%;
     padding: 1% 0;
+    z-index: 10;
 }
 .header h1, .header h3{
     display: inline-block;
@@ -44,15 +47,19 @@ body{
     border-radius: 5px;
     margin-right: 2%;
 }
-
+.content-block{
+    position: relative;
+    top:70px;
+}
 .content-block img{
+    position: relative;
     display: block;
     width: 90%;
     border: 5px solid hsla(78, 22%, 55%, .4);
     margin: 0 auto;
-    margin-top: 2%;
 }
 .content-block p{
+    position: relative;
     color: hsla(285, 2%, 39%, 1);
     text-align: left;
     width: 90%;
