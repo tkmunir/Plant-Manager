@@ -15,14 +15,11 @@ body{
     font-family: 'Lato', sans-serif;
     background-color: #DDFCAD;
 }
-.header h1{
-    width: fit-content;
-    margin-right: 10%;
-    font-weight: 1000;
+.header nav a, .header nav button{
+    display: inline-block;
 }
-.header h3{
-    width: fit-content;
-    font-weight: 800;
+.header nav a{
+    font-weight: 1000;
 }
 .header{
     position: fixed;
@@ -30,22 +27,22 @@ body{
     background-color: #95A472;
     text-align: center;
     width:100%;
-    padding: 1% 0;
+    padding: 0% 0;
     z-index: 10;
 }
-.header h1, .header h3{
-    display: inline-block;
+.header nav a{
+    margin-right: 6%;
 }
-.header h3, .header button{
-    margin-left: 8%;
-}
-.header button{
+nav button{
     width: 80px;
     height: 30px;
     background-color: hsla(84, 93%, 83%, 1);
     color: black;
-    border-radius: 5px;
-    margin-right: 2%;
+}
+.header nav .title a{
+    position: relative;
+    margin-left: 0%;
+    margin-right: 9%;
 }
 .content-block{
     position: relative;
@@ -67,4 +64,9 @@ body{
     margin-top: 2%;
     line-height: 20px;
 }
-
+.title{
+    font-size:xx-large;
+}
+nav{
+    font-size:x-large;
+}
