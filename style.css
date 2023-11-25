@@ -13,14 +13,14 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #D0E7D2;
-    color:#262b27;
+    background-color: rgb(100, 250, 155);
+    color:#29332D;
 }
 
 nav{
     position: fixed;
     margin: 0;
-    background-color: #79AC78;
+    background-color: #43A868;
     text-align: center;
     width:100%;
     padding: 0% 0;
@@ -44,18 +44,18 @@ nav .category{
     cursor: pointer;
 }*/
 nav .category:hover{
-    background-color: #79A078;
+    background-color: #467558;
     cursor: pointer;
 }
 nav .title:hover{
     cursor: pointer;
-    color:#515d51;
+    color:#35423A;
 }
 nav button{
     position: relative;
     font-size: 25px;
-    background-color: #B0D9B1;
-    color:#262b27;
+    background-color: #2BDB6C;
+    color:#35423A;
     border: none;
     padding: 1px;
     padding-left: 7px;
@@ -65,23 +65,21 @@ nav button{
     margin-top: 20px;
     text-transform: capitalize;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 5px;
+
 }
 nav button:hover{
-    background-color: #B0D0B1;
+    background-color: #29ca64;
     font-size: 24.9px;
 }
 nav button:active{
-    background-color: #B0c5B1;
+    background-color: #27c05f;
     font-size: 24.8px;
 }
-
-
-
-
 .content-block{
     position: relative;
     top:70px;
+    display: none;
 }
 .content-block img{
     position: relative;
