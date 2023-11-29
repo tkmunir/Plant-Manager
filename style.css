@@ -76,6 +76,12 @@ nav button:active{
     background-color: #27c05f;
     font-size: 24.8px;
 }
+.content{
+    display: block;
+}
 .overview{
     background-color: #29332D;
+}
+.overview a{
+    display: block;
 }
