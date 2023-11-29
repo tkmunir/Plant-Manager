@@ -76,25 +76,6 @@ nav button:active{
     background-color: #27c05f;
     font-size: 24.8px;
 }
-.content-block{
-    position: relative;
-    top:70px;
-    display: none;
+.overview{
+    background-color: #29332D;
 }
-.content-block img{
-    position: relative;
-    display: block;
-    width: 90%;
-    border: 5px solid hsla(78, 22%, 55%, .4);
-    margin: 0 auto;
-}
-.content-block p{
-    position: relative;
-    color: hsla(285, 2%, 39%, 1);
-    text-align: left;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 2%;
-    line-height: 20px;
-}
-
