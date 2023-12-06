@@ -81,13 +81,20 @@ nav button:active{
     font-size: 24.8px;
 }
 .content{
+    position: relative;
     display: flex;
     padding-top: 100px;
+    justify-content: center;
+    top: 10px;
 }
 .overview{
     display:block;
     background-color: #29332D;
-    margin:7px;
+    padding-bottom: 15px;
+    margin:5px;
+    max-height: 500px;
+    max-width: 500px;
+    overflow-y: scroll;
 }
 
 .overview .top-text{
@@ -96,33 +103,30 @@ nav button:active{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
-}
-.overview ol{
-    position: relative;
-    top:-100px;
-    font-size: 16px;
+    margin-bottom: 10px;
 }
 .water{
     display:block;
     background-color: #27c05f;
-    width:97vw;
+    width: 97vw;
 }
 .tasks{
     display:block;
     background-color: #27c05f;
-    width:97vw;
     margin-top:10px;
+    width: 97vw;
 }
 .container{
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-content: space-around;
     flex-wrap: wrap;
     min-height:150px;
+    margin:5px;
 }
 .item img{
     height: 100px;
     width: 100px;
-    
+    margin-bottom: 3px;
 }
