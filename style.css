@@ -15,6 +15,10 @@ body{
     font-family: 'Lato', sans-serif;
     background-color: rgb(100, 250, 155);
     color:#29332D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 nav{
@@ -77,13 +81,12 @@ nav button:active{
     font-size: 24.8px;
 }
 .content{
-    display: block;
+    display: flex;
     padding-top: 100px;
 }
 .overview{
     display:block;
     background-color: #29332D;
-    padding: 120px 70px;
     margin:7px;
 }
 
@@ -93,7 +96,6 @@ nav button:active{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
-    top:-100px;
 }
 .overview ol{
     position: relative;
@@ -115,10 +117,12 @@ nav button:active{
     position: relative;
     display: flex;
     justify-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
-    top:-80px;
+    min-height:150px;
 }
 .item img{
     height: 100px;
     width: 100px;
+    
 }
