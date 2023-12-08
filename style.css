@@ -82,25 +82,24 @@ nav button:active{
     display: flex;
     padding-top: 4rem;
     justify-content: center;
-    top: 10px;
+    top: 0.4rem;;
 }
 .overview{
     display:block;
     background-color: #29332D;
-    padding-bottom: 15px;
-    margin:5px;
+    padding-bottom: 0.7rem;;
+    margin:0.6rem;;
     max-height: 500px;
-    max-width: 500px;
     overflow-y: scroll;
 }
 
 .overview .top-text{
     display:block;
     position: relative;
-    font-size: 20px;
+    font-size: 1.4rem;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 0.1rem;;
 }
 .water{
     display:block;
@@ -110,7 +109,6 @@ nav button:active{
 .tasks{
     display:block;
     background-color: #27c05f;
-    margin-top:10px;
     width: 97vw;
 }
 .container{
@@ -120,7 +118,7 @@ nav button:active{
     align-content: space-around;
     flex-wrap: wrap;
     min-height:150px;
-    margin:5px;
+    margin: 0.1rem;
 }
 .item img{
     height: 100px;
